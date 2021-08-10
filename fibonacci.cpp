@@ -7,6 +7,8 @@ int fibonacci(int n){
 }
 	
 int main() {
-	for (int i=0;i<10;i++)
+	int inpt;
+	cin >> inpt;
+	for (int i=0;i<inpt;i++)
 		cout << fibonacci(i) << endl;
 }
